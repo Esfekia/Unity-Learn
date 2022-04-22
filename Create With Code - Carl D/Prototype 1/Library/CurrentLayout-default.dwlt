@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 2752
     height: 1060.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 2752
     height: 1060.8
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 2752
     height: 1010.80005
-  m_MinSize: {x: 880, y: 492}
+  m_MinSize: {x: 879, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 84
+  controlID: 8831
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 2257.6
     height: 1010.80005
-  m_MinSize: {x: 604, y: 492}
+  m_MinSize: {x: 603, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 85
+  controlID: 8832
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,10 +170,10 @@ MonoBehaviour:
     y: 0
     width: 2257.6
     height: 631.2
-  m_MinSize: {x: 604, y: 221}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 603, y: 221}
+  m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 86
+  controlID: 8833
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 153
+  controlID: 8791
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -474,9 +474,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 6efbffff
+      m_SelectedIDs: b0c3ffff
+      m_LastClickedID: -15440
+      m_ExpandedIDs: 6efbffff2c3f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -536,9 +536,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 31.992884, y: -39.53694, z: 244.15712}
+    m_Target: {x: 11.153813, y: -119.01041, z: 118.766464}
     speed: 2
-    m_Value: {x: 31.992884, y: -39.53694, z: 244.15712}
+    m_Value: {x: 11.153813, y: -119.01041, z: 118.766464}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -585,13 +585,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.47800994, y: 0.03818319, z: -0.02081183, w: 0.8772884}
+    m_Target: {x: 0.4177217, y: 0.040861286, z: -0.018815527, w: 0.9074716}
     speed: 2
-    m_Value: {x: -0.47800997, y: -0.038183194, z: 0.02081183, w: -0.87728846}
+    m_Value: {x: -0.41772172, y: -0.04086129, z: 0.018815527, w: -0.90747166}
   m_Size:
-    m_Target: 240.27713
+    m_Target: 105.906784
     speed: 2
-    m_Value: 240.27713
+    m_Value: 105.906784
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -687,8 +687,8 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\Users\serta\Desktop\Learn\Create With Code - Carl D\Prototype
-    1
+  m_LastProjectPath: C:\Users\serta\Desktop\Learn\Unity-Learn\Create With Code -
+    Carl D\Prototype 1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -723,7 +723,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be410000c0410000c2410000
+    m_ExpandedIDs: 00000000be410000c0410000c241000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -836,7 +836,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 657.6001
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
