@@ -1,0 +1,815 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.32f1 (12f8b0834f07) revision 1243312'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 32657 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/serta/Desktop/Learn/Unity-Learn/Create With Code - Carl D/Hexa 1.0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58784
+Successfully changed project path to: C:/Users/serta/Desktop/Learn/Unity-Learn/Create With Code - Carl D/Hexa 1.0
+C:/Users/serta/Desktop/Learn/Unity-Learn/Create With Code - Carl D/Hexa 1.0
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/serta/Desktop/Learn/Unity-Learn/Create With Code - Carl D/Hexa 1.0/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   
+    VRAM:     10077 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001605 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 25.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (487ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (376ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (26ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (653ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 69.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 2.048200 ms (FindLiveObjects: 0.092800 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.870000 ms  DeleteObjects: 0.044100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.325266 seconds.
+  path: Assets/PolygonMini_Fantasy
+  artifactKey: Guid(86c33630e823a694b954a6525e56b26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy using Guid(86c33630e823a694b954a6525e56b26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ebd62939b7a25ae940075f4eff3d87') in 0.001928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.056668 seconds.
+  path: Assets/PolygonMini_Fantasy/Demo
+  artifactKey: Guid(19f749ba1931d384eb4b015d7839ddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Demo using Guid(19f749ba1931d384eb4b015d7839ddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc567ac9632dc3001d9d67498d4f20d') in 0.001950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.072545 seconds.
+  path: Assets/PolygonMini_Fantasy/Demo/Demo_Cube_Example.unity
+  artifactKey: Guid(4814019ee10e3024ca8bb757dbc9e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Demo/Demo_Cube_Example.unity using Guid(4814019ee10e3024ca8bb757dbc9e5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92529bb261e107aaa5fbfbad0a19016') in 0.003166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.536003 seconds.
+  path: Assets/PolygonMini_Fantasy/Demo/Demo_Cube_FloatingPort.unity
+  artifactKey: Guid(e93005dd0d647c7418a5b1594a5162d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Demo/Demo_Cube_FloatingPort.unity using Guid(e93005dd0d647c7418a5b1594a5162d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb0268f429fa17c81bad4c3b781fd67') in 0.001922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.501071 seconds.
+  path: Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Example.unity
+  artifactKey: Guid(fd12050b8b20c7149865bcc337040f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Example.unity using Guid(fd12050b8b20c7149865bcc337040f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e439e5c17b76432bf3b90053f537ddc1') in 0.002000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.428772 seconds.
+  path: Assets/PolygonMini_Fantasy/Demo/Demo_Hex_ExampleTiles.unity
+  artifactKey: Guid(3a94f0f3782088749a3c2a3fcd4df2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Demo/Demo_Hex_ExampleTiles.unity using Guid(3a94f0f3782088749a3c2a3fcd4df2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c916e743669259f7d0b5fb19fea815d') in 0.001968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.057843 seconds.
+  path: Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Islands.unity
+  artifactKey: Guid(b7e1cd8574edc444da98f573d32e2234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Islands.unity using Guid(b7e1cd8574edc444da98f573d32e2234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88529de89937b186eddc61615f62d79f') in 0.001685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.945277 seconds.
+  path: Assets/PolygonMini_Fantasy/Demo/Demo_Hex_LevelSelect.unity
+  artifactKey: Guid(8ebdf7c7396188342a6ad51d7e32f86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Demo/Demo_Hex_LevelSelect.unity using Guid(8ebdf7c7396188342a6ad51d7e32f86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d84ace94215f3e28c257302a10771f') in 0.001914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.389988 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials
+  artifactKey: Guid(d211d37670e5b2945a43d5fdd06b60e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials using Guid(d211d37670e5b2945a43d5fdd06b60e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151e13dd81e0abf07492931826aad80a') in 0.001996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116853 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Background_01.mat
+  artifactKey: Guid(c1addfde6bc90934bbbbd882e53130a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Background_01.mat using Guid(c1addfde6bc90934bbbbd882e53130a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ebc9fc0f2eec4815f065ef12414ab5') in 0.192089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_Ring_Semi.mat
+  artifactKey: Guid(3a217b6e8510ca54e966a1b80ca7215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_Ring_Semi.mat using Guid(3a217b6e8510ca54e966a1b80ca7215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e16759e4e5dd12de1ee92b85ff316b2') in 0.028176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_05.mat
+  artifactKey: Guid(18f0a20f416c50c45af61f1e03fb57bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_05.mat using Guid(18f0a20f416c50c45af61f1e03fb57bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8adfbecd4d3c6fd9fb1dfb6e99014da') in 0.094296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_01.mat
+  artifactKey: Guid(a16b7b85a356b7d469067849a165dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_01.mat using Guid(a16b7b85a356b7d469067849a165dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854bb743bf7acd5952aff6e6d10d1d1b') in 0.008030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_WaterFall.mat
+  artifactKey: Guid(b94c4b63b24989147959a65b3f623d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_WaterFall.mat using Guid(b94c4b63b24989147959a65b3f623d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5fca2827c40cd94e50e905b563cbd5') in 0.076872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Demo_Lava.mat
+  artifactKey: Guid(7c2e12a4e0f9709448ad0f2c50e3e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Demo_Lava.mat using Guid(7c2e12a4e0f9709448ad0f2c50e3e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295246183b555ce92ab5e365120d408d') in 0.075366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_Poof.mat
+  artifactKey: Guid(30fe55f5e28a70046859a549dc453f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_Poof.mat using Guid(30fe55f5e28a70046859a549dc453f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9169b181cca84be9ff251746c5c9b13') in 0.104234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Water.mat
+  artifactKey: Guid(98c3dd6fc0665414fb0471ba970b98a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Water.mat using Guid(98c3dd6fc0665414fb0471ba970b98a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042ef0236767dba5809428623d245901') in 0.109923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Background_Cards.mat
+  artifactKey: Guid(a62d47a1cf6d5144092e2c96d308f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Background_Cards.mat using Guid(a62d47a1cf6d5144092e2c96d308f8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b961b57b17a335edb75f7022f5f26a') in 0.012190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_Blank_Dark.mat
+  artifactKey: Guid(e24481fba7c0c79419f55683183d422c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_Blank_Dark.mat using Guid(e24481fba7c0c79419f55683183d422c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ce3fa661fa03c3750fd1735ffb4fbc') in 0.026750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_04.mat
+  artifactKey: Guid(fd9e273c4dc19434295f097ad21244e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_04.mat using Guid(fd9e273c4dc19434295f097ad21244e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bc5f198410f94816c575892865619b') in 0.007195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Mountains_02.mat
+  artifactKey: Guid(92f57c894c6b17244b984fc76299328a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Mountains_02.mat using Guid(92f57c894c6b17244b984fc76299328a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0cb05e5cd6cc146eb88593fc806785') in 0.006319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Background_02.mat
+  artifactKey: Guid(9664b5aac3a053b49a8660f3eb88c8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Background_02.mat using Guid(9664b5aac3a053b49a8660f3eb88c8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0755830cab77a88a2d2adb257c44779') in 0.012191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_02.mat
+  artifactKey: Guid(9b2b56775f50cfe4a9b77a3c83af5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_02.mat using Guid(9b2b56775f50cfe4a9b77a3c83af5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa07a2edafb30b7910a290aca73377d') in 0.006770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Props_Multiply.mat
+  artifactKey: Guid(0469b9c77bd65d34f9361865b530b4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Props_Multiply.mat using Guid(0469b9c77bd65d34f9361865b530b4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e45ba1bbb542bcaa298ccadf9988d5') in 0.210762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_03.mat
+  artifactKey: Guid(d906c091ff8fb854ba970209226cd22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_03.mat using Guid(d906c091ff8fb854ba970209226cd22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40babc5f7126cbe364edf3e770fa64d') in 0.007625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_Ring.mat
+  artifactKey: Guid(4e019fcf2b2348743a3284e4c3b505e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_Ring.mat using Guid(4e019fcf2b2348743a3284e4c3b505e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a80f387c5908f127c421f92520af76') in 0.009156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Mountains_01.mat
+  artifactKey: Guid(dda6a004c9432f54689114bb29037847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Mountains_01.mat using Guid(dda6a004c9432f54689114bb29037847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9251b43b416fa0125c1981f17e465c5') in 0.006691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Mountains_03.mat
+  artifactKey: Guid(bfda41e66ee06394088603c0c71de5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Mountains_03.mat using Guid(bfda41e66ee06394088603c0c71de5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc89d196402534c7f62b4573f7ba513') in 0.006616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Props_Add.mat
+  artifactKey: Guid(f9609e91fdc98a64a89f2b9203c83ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Props_Add.mat using Guid(f9609e91fdc98a64a89f2b9203c83ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaae8426f7601d576759a74b358085d9') in 0.213922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/Props_Overlay.mat
+  artifactKey: Guid(eaf567fbce0f0ae43aec80d3bb6f3c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/Props_Overlay.mat using Guid(eaf567fbce0f0ae43aec80d3bb6f3c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fd16e85bc70d5ad66c578dcc0a3894') in 0.228480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_Blank_Light.mat
+  artifactKey: Guid(814249beff237e5468533f64e38ec733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_Blank_Light.mat using Guid(814249beff237e5468533f64e38ec733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49887fa461989db212794f6da08b91e9') in 0.008067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_Blossom.mat
+  artifactKey: Guid(976c15b36fd385a4f9db584e81d28467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_Blossom.mat using Guid(976c15b36fd385a4f9db584e81d28467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841553371f4508a375f6780940cb333b') in 0.007057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_WaterFall_Water.mat
+  artifactKey: Guid(79490a86996fc864c9f1132ea1765a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_WaterFall_Water.mat using Guid(79490a86996fc864c9f1132ea1765a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da953c38b014feb4b2e98cb597c6851') in 0.006240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_06.mat
+  artifactKey: Guid(b62ce8a0fd53b7d48853bb1e75a94b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_06.mat using Guid(b62ce8a0fd53b7d48853bb1e75a94b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872799a4304808783ece8def5dbdad91') in 0.007204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/PolygonMini_Fantasy/Materials/FX_Smoke.mat
+  artifactKey: Guid(670aee1c038dd464aa171686710d9791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Materials/FX_Smoke.mat using Guid(670aee1c038dd464aa171686710d9791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55b2eba87fa1231753e46acb6f0d9df') in 0.005991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.852131 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs
+  artifactKey: Guid(2d608c04eb4231948aec1bcbcb96ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs using Guid(2d608c04eb4231948aec1bcbcb96ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ad30a946ebda5f43964a7849ad4d10') in 0.001946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.124964 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles
+  artifactKey: Guid(207cab86e00af4f44b8e635e6d6b5ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles using Guid(207cab86e00af4f44b8e635e6d6b5ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11a8d211a9a7e74050b15a995fa1700') in 0.002059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.129899 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex
+  artifactKey: Guid(613e5e65155001348a5f7be132e00de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex using Guid(613e5e65155001348a5f7be132e00de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b4de214c0698219daa093d2ce3c3f8') in 0.001921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109196 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Column_01.prefab
+  artifactKey: Guid(31831991ea5df8544be2db96e031d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Column_01.prefab using Guid(31831991ea5df8544be2db96e031d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a6044b7fd276e73fba1a23fd4b8926') in 0.026213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_02.prefab
+  artifactKey: Guid(d4d5656c912748c458f84393e040e6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_02.prefab using Guid(d4d5656c912748c458f84393e040e6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa993b5e7160121ecd67eaab68d0f45e') in 0.008796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_05.prefab
+  artifactKey: Guid(6d220353ea6c2ba4b94356af5be7ce17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_05.prefab using Guid(6d220353ea6c2ba4b94356af5be7ce17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effb470a5f85c486e6f491cb791de8be') in 0.006906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_Water_01.prefab
+  artifactKey: Guid(c6607bc99adb9be45869306b24119a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_Water_01.prefab using Guid(c6607bc99adb9be45869306b24119a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713c4c9ae9eba9a90ecb5b1384db7bbb') in 0.006685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Column_Water_02.prefab
+  artifactKey: Guid(868e7193913516741912c9f4f922c6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Column_Water_02.prefab using Guid(868e7193913516741912c9f4f922c6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30b63f66c9dcf543662644689f7a0d3') in 0.006884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Waterfall_01.prefab
+  artifactKey: Guid(514c3bd6f7b6f954d8c1f24afb12feba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Waterfall_01.prefab using Guid(514c3bd6f7b6f954d8c1f24afb12feba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d088b065191bcd0978daf1c306b417f') in 0.006639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_10.prefab
+  artifactKey: Guid(1f9f81b71e8ab214b9ab2716eb4c4405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_10.prefab using Guid(1f9f81b71e8ab214b9ab2716eb4c4405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34eda2ce9cb1108e11d57212690fce83') in 0.007033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Skulls_01.prefab
+  artifactKey: Guid(f78d2f9d16eb11a448239663170d2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Skulls_01.prefab using Guid(f78d2f9d16eb11a448239663170d2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48010980ae623f2a4783858898f4ea2') in 0.006898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Rock_Platform_01.prefab
+  artifactKey: Guid(1707b6a235fa31343addf335a6e4c923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Rock_Platform_01.prefab using Guid(1707b6a235fa31343addf335a6e4c923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e906fac995ffa607deffdcfdd3e36bf3') in 0.006987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_06.prefab
+  artifactKey: Guid(de1399d234791854fbe161d6782f3995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_06.prefab using Guid(de1399d234791854fbe161d6782f3995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb586cabdb2405916214fe5214d73aa') in 0.006978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_03.prefab
+  artifactKey: Guid(1782f20af342c4e4487b04cc39fd475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_03.prefab using Guid(1782f20af342c4e4487b04cc39fd475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15910dc66feef861c96b71b20b38b93') in 0.006886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_05.prefab
+  artifactKey: Guid(973018b16acfa3f4b804ee6863a8441e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_05.prefab using Guid(973018b16acfa3f4b804ee6863a8441e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1186f2e3b767873ac841065c78351289') in 0.006653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_02.prefab
+  artifactKey: Guid(04a5c1d17494384448bd49a0fdaafb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_02.prefab using Guid(04a5c1d17494384448bd49a0fdaafb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e4e45c61c4d1ea1f7e8043329f8c90') in 0.008135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_01.prefab
+  artifactKey: Guid(0cd03dc6a98f58142835578b6fd60cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_01.prefab using Guid(0cd03dc6a98f58142835578b6fd60cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032ac8c7ba7fa608221cd4921eee232e') in 0.006638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_04.prefab
+  artifactKey: Guid(598f4f2319fd9be4e8da6db3581fe5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_04.prefab using Guid(598f4f2319fd9be4e8da6db3581fe5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8240e835fc7810ff256c7e788ad3c95') in 0.006784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_01.prefab
+  artifactKey: Guid(74948e9f5a9732b47aeec5af80de6dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_01.prefab using Guid(74948e9f5a9732b47aeec5af80de6dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13954f989493a374e79ceb5161197ed4') in 0.006528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_03.prefab
+  artifactKey: Guid(4e783bbd41e70d84f9db9a4db1eff923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_03.prefab using Guid(4e783bbd41e70d84f9db9a4db1eff923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7ea3fa33b88f5b60bbb63934b19e15') in 0.006533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_11.prefab
+  artifactKey: Guid(6da7a65f2725b0847a2c943be5e84f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_11.prefab using Guid(6da7a65f2725b0847a2c943be5e84f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dacb0b26650fdc7fb938be849bad56c') in 0.006510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_FloatingIsland_01.prefab
+  artifactKey: Guid(961be46ca9a355943ae3f65c47741bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_FloatingIsland_01.prefab using Guid(961be46ca9a355943ae3f65c47741bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c6ec66ee96c5b6d8135cba7c0dd0e9') in 0.006545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_07.prefab
+  artifactKey: Guid(d933434f8a4097742a6b9d9534bb9ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_07.prefab using Guid(d933434f8a4097742a6b9d9534bb9ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f115fa10efa625c03829fdd729540f9') in 0.006754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Forest_01.prefab
+  artifactKey: Guid(9ebc0b3419d85bc478783f8df41ecac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Forest_01.prefab using Guid(9ebc0b3419d85bc478783f8df41ecac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c4b92908dfdcc4896b83a6235fe269') in 0.006653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_04.prefab
+  artifactKey: Guid(cf623c52457666d459dcd6b016ad048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_04.prefab using Guid(cf623c52457666d459dcd6b016ad048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6b8ac90d86adeb70f6bc9167be84c9') in 0.006807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_06.prefab
+  artifactKey: Guid(19030c259fd90c744a07c10a5d9b4382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_06.prefab using Guid(19030c259fd90c744a07c10a5d9b4382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938a5d4186f30706854aed95ed93ae6f') in 0.006630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_09.prefab
+  artifactKey: Guid(57b473253cbdb0e4cb4139585f859cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_09.prefab using Guid(57b473253cbdb0e4cb4139585f859cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a7ec2149257b7473f4fe7e943ef502') in 0.006510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_02.prefab
+  artifactKey: Guid(07d6d6e3559a5f549820ba3a4661161d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_02.prefab using Guid(07d6d6e3559a5f549820ba3a4661161d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ac226e7c2b74b8cd1b9ac3902ff442') in 0.006591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Island_03.prefab
+  artifactKey: Guid(e499751c4b88a6847844b1030ad4bca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Island_03.prefab using Guid(e499751c4b88a6847844b1030ad4bca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061a8e18c3d0ee6570f1ee517a029157') in 0.006552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Column_Water_03.prefab
+  artifactKey: Guid(1e562b791b03d6e4f966915fcea5b3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Column_Water_03.prefab using Guid(1e562b791b03d6e4f966915fcea5b3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e752785fe560bd7cb6cdabb946ee06') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_01.prefab
+  artifactKey: Guid(f610f1f30b970024b86dcc1a05308bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_01.prefab using Guid(f610f1f30b970024b86dcc1a05308bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda06547fc82c50bf1cf461630e92c09') in 0.006660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_05.prefab
+  artifactKey: Guid(83a32d464820f564fa2a222324181d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_05.prefab using Guid(83a32d464820f564fa2a222324181d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a595e0c7abb22d4ff26bf837094b14c') in 0.006493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_07.prefab
+  artifactKey: Guid(99b88b06d385f53459792b5a9519d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_07.prefab using Guid(99b88b06d385f53459792b5a9519d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0d5ce1c6200023a2d86d5f962b03c2') in 0.007236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_03.prefab
+  artifactKey: Guid(23d160648806938428a44a72fb15a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_03.prefab using Guid(23d160648806938428a44a72fb15a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3795b1d1d21280bc3eb96f5004b484a7') in 0.007025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_04.prefab
+  artifactKey: Guid(066f5221775f7af4f972a491112c09df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_04.prefab using Guid(066f5221775f7af4f972a491112c09df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bf7c643c37e57ba5bca02493427561') in 0.006798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_08.prefab
+  artifactKey: Guid(33b58e8d4f7a52846bcf7fc292871298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_08.prefab using Guid(33b58e8d4f7a52846bcf7fc292871298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035a07f7fef42c1afe2b73dd7a6b1e49') in 0.007568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_05.prefab
+  artifactKey: Guid(3e7718e6071cdff43b3aeee88b82a08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_05.prefab using Guid(3e7718e6071cdff43b3aeee88b82a08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f19b45fe6c853c5188844378e19c6f') in 0.006543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Island_02.prefab
+  artifactKey: Guid(60c48c7fa7d5ca042b69471ced14c62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Island_02.prefab using Guid(60c48c7fa7d5ca042b69471ced14c62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fe4c0df313b52dfc554b234e376a37') in 0.006692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_09.prefab
+  artifactKey: Guid(123b5e5750154f7418f8a73b428b6eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_09.prefab using Guid(123b5e5750154f7418f8a73b428b6eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d3acff485c62b91aa23636c226709e') in 0.006507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_01.prefab
+  artifactKey: Guid(4239b1c9e0437544696842b2bd71d9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_01.prefab using Guid(4239b1c9e0437544696842b2bd71d9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be34698d3cd18e5967144a38c8af852b') in 0.006937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_12.prefab
+  artifactKey: Guid(ad5a449b66f5e9c4d98d9af8d4924b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_12.prefab using Guid(ad5a449b66f5e9c4d98d9af8d4924b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3443053ad4d85955c8f87b1eadb44696') in 0.006425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_11.prefab
+  artifactKey: Guid(f1088db0495431242b86219112ff9771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_11.prefab using Guid(f1088db0495431242b86219112ff9771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46417bbb20329a939336f5f7aa147c08') in 0.006629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_12.prefab
+  artifactKey: Guid(2683a43bbcba24240b377e8ee223ce4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_12.prefab using Guid(2683a43bbcba24240b377e8ee223ce4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4757192d1b312b7cb55eec498e522f52') in 0.006554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_10.prefab
+  artifactKey: Guid(6c049edeb2d53344fbfdab4a58bddf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_10.prefab using Guid(6c049edeb2d53344fbfdab4a58bddf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca4c01e9f09d4446df91e836cad9bae') in 0.006706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Rocks_01.prefab
+  artifactKey: Guid(27013bd8da5cb794fad32e7d26a484a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Rocks_01.prefab using Guid(27013bd8da5cb794fad32e7d26a484a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e443cc235381d3c3b0bf7c2507ed27') in 0.006395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_08.prefab
+  artifactKey: Guid(fd93c12f2175ba8478031f3fa3ec9ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_08.prefab using Guid(fd93c12f2175ba8478031f3fa3ec9ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04151efba85fa83787949269278da42e') in 0.006658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Island_01.prefab
+  artifactKey: Guid(654498c8b5c4ef64384d848742d6c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Island_01.prefab using Guid(654498c8b5c4ef64384d848742d6c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18e1e5187dfdf5ed54ff4ec3427c5b7') in 0.006531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_02.prefab
+  artifactKey: Guid(74d326a9e30f5d14b9bd30ccd9f65b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_02.prefab using Guid(74d326a9e30f5d14b9bd30ccd9f65b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2ac2aa53a5ca0989912e7932c562ae') in 0.006626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Pond_01.prefab
+  artifactKey: Guid(f3d8d1ac7d87b44438cdca777c66e2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Pond_01.prefab using Guid(f3d8d1ac7d87b44438cdca777c66e2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428246e48e7175ae5a51bff0f9c65a81') in 0.006688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_Water_02.prefab
+  artifactKey: Guid(0dbd42f4d781d794a840c663af79f585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_Water_02.prefab using Guid(0dbd42f4d781d794a840c663af79f585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0783f0a67d35802b14cdf296536327') in 0.007284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_02.prefab
+  artifactKey: Guid(287d8e993d57a43478d958f6c596348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_02.prefab using Guid(287d8e993d57a43478d958f6c596348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e96e482df6ce6a5321933851bc7822') in 0.007016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_04.prefab
+  artifactKey: Guid(b65470050a6ef854ca4354131bd00eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_04.prefab using Guid(b65470050a6ef854ca4354131bd00eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb94f0f70ff494a4cc5dd8b77ec7b654') in 0.007275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_FloatingIsland_Water_02.prefab
+  artifactKey: Guid(32d3478f73eadc54cacbb964b765ff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_FloatingIsland_Water_02.prefab using Guid(32d3478f73eadc54cacbb964b765ff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5085901d66f79a00674fbeee2ec7787a') in 0.008636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_08.prefab
+  artifactKey: Guid(cf651ac6966c04140b7e6f6f04dced7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Path_08.prefab using Guid(cf651ac6966c04140b7e6f6f04dced7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5207c025cacd8df210dc33c9c237ef') in 0.006732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_03.prefab
+  artifactKey: Guid(3d4dfd5ea69d2fb4fa8c37ac3c2750e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Mountain_03.prefab using Guid(3d4dfd5ea69d2fb4fa8c37ac3c2750e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9007c9d5cc0b71266c387be1426ecb') in 0.006678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_03.prefab
+  artifactKey: Guid(378e4d44d4a27e346a0efb62541a2d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Flat_03.prefab using Guid(378e4d44d4a27e346a0efb62541a2d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b51435b806c5e641b521a9badef97d') in 0.007041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Pond_02.prefab
+  artifactKey: Guid(4a92a041cf3c3b14980ac361de019f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Pond_02.prefab using Guid(4a92a041cf3c3b14980ac361de019f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ef90838f2813e9b8c8a355a1cdddd0') in 0.007136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_01.prefab
+  artifactKey: Guid(392d9c3ba9054794aa30d0d0adfd5c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_01.prefab using Guid(392d9c3ba9054794aa30d0d0adfd5c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac44a90f1470d7f39b871ad275f6c03') in 0.007021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_06.prefab
+  artifactKey: Guid(dd5f98d633203b7498fbfe113dbc92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Hill_06.prefab using Guid(dd5f98d633203b7498fbfe113dbc92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb6d7951f4541f01b75c851b6a86c96') in 0.006803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Column_Water_01.prefab
+  artifactKey: Guid(eed5b990fef32f74884edcc6df6d9b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_Column_Water_01.prefab using Guid(eed5b990fef32f74884edcc6df6d9b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78719dd887940ea95ea64cdaceda1903') in 0.006752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_07.prefab
+  artifactKey: Guid(9c684efe09d2f3643b5180c288f1e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_07.prefab using Guid(9c684efe09d2f3643b5180c288f1e760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b1f37b24d25881c23e9c933eb9bacf') in 0.006408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_06.prefab
+  artifactKey: Guid(401ae249403ef584a804106257e5bc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonMini_Fantasy/Prefabs/Tiles/Hex/SM_Tile_Hex_River_06.prefab using Guid(401ae249403ef584a804106257e5bc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4babaf3ca4301071245a82f7b70dddd') in 0.006540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.823365 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8bc25658be7102d4d80c28c313eaecda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8bc25658be7102d4d80c28c313eaecda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c661114bd0f4852f83b0a6c8f822adfe') in 0.002227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.170938 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c55409359c0051422e58de30b0573d') in 0.001928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.878801 seconds.
+  path: Assets/PolygonPirates
+  artifactKey: Guid(b48bb4483a2f2d04b90a4c6a38518ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates using Guid(b48bb4483a2f2d04b90a4c6a38518ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e8de6c59853b6416742475d72c1e9b') in 0.002005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.754227 seconds.
+  path: Assets/PolygonPirates/Scenes
+  artifactKey: Guid(cfeb79e110db9724ebd8bf141821fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Scenes using Guid(cfeb79e110db9724ebd8bf141821fcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06239feffc997ed2e9e1189c69c2bc9') in 0.001745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.058209 seconds.
+  path: Assets/PolygonPirates/Scenes/Demo_Main.unity
+  artifactKey: Guid(bfa5d56a0eb50f04ba05cb6891c91214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Scenes/Demo_Main.unity using Guid(bfa5d56a0eb50f04ba05cb6891c91214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc99c69dce44133e023c031bdbee562') in 0.001908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.898467 seconds.
+  path: Assets/PolygonPirates/Scenes/Demo_Creatures.unity
+  artifactKey: Guid(4be6a6fa936d78540af0c1e4fd027467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Scenes/Demo_Creatures.unity using Guid(4be6a6fa936d78540af0c1e4fd027467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3c3ba7a17e8bdb30ba293754d71a46') in 0.001886 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (799ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 76.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 2.535500 ms (FindLiveObjects: 0.109200 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.911800 ms  DeleteObjects: 0.467600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
