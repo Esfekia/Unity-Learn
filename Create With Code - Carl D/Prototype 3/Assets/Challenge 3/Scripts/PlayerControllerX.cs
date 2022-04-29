@@ -6,9 +6,10 @@ public class PlayerControllerX : MonoBehaviour
 {
     public bool gameOver;
 
-    public float floatForce = 0.50f;
-    private float gravityModifier = 2.0f;
+    public float floatForce = 0.30f;
+    private float gravityModifier = 1.5f;
     private float topBoundary = 14.5f;
+    public float groundForce = 10.0f;
     private Rigidbody playerRb;
 
     public ParticleSystem explosionParticle;
@@ -65,6 +66,10 @@ public class PlayerControllerX : MonoBehaviour
             playerAudio.PlayOneShot(moneySound, 1.0f);
             Destroy(other.gameObject);
 
+        }
+        else if (other.gameObject.CompareTag("Ground") && !gameOver)
+        {
+            playerRb.AddForce(Vector3.up * groundForce, ForceMode.Impulse);
         }
 
     }
