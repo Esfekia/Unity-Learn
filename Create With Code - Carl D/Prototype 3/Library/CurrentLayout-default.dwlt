@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2048
     height: 1060.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 84
+  controlID: 59
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 85
+  controlID: 60
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 86
+  controlID: 61
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,8 +349,8 @@ MonoBehaviour:
     y: 0
     width: 368
     height: 1010.80005
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -426,7 +426,7 @@ MonoBehaviour:
       y: 21
       width: 986.8
       height: 697.2
-    m_Scale: {x: 0.48183593, y: 0.48183593}
+    m_Scale: {x: 0.48183593, y: 0.481836}
     m_Translation: {x: 493.4, y: 348.6}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -435,9 +435,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -1024
-      y: -723.4828
+      y: -723.4827
       width: 2048
-      height: 1446.9656
+      height: 1446.9655
     m_MinimalGUI: 1
   m_defaultScale: 0.48183593
   m_LastWindowPixelSize: {x: 1233.5, y: 897.75}
@@ -476,7 +476,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5ce3ffff82e3ffff34e4ffff6efbffff
+      m_ExpandedIDs: 6efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -587,7 +587,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.20257151, y: -0.319011, z: 0.06999848, w: -0.9232008}
     speed: 2
-    m_Value: {x: -0.20257124, y: -0.3190106, z: 0.06999839, w: -0.9231996}
+    m_Value: {x: -0.20257151, y: -0.319011, z: 0.06999848, w: -0.92320085}
   m_Size:
     m_Target: 48.331486
     speed: 2
@@ -749,23 +749,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Challenge 3/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Challenge 3/Scripts
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\serta\Desktop\Learn\Unity-Learn\Create With Code -
     Carl D\Prototype 3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: a6400000
-    m_LastClickedID: 16550
-    m_ExpandedIDs: 00000000884000008a4000008c4000008e400000904000009240000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 8c400000
+    m_LastClickedID: 16524
+    m_ExpandedIDs: 00000000884000008a4000008c4000009040000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -820,7 +820,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300003e3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
