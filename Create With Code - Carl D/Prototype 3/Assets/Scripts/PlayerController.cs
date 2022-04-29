@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             Debug.Log("Game over");
             playerAnim.SetBool("Death_b", true);
-            playerAnim.SetInteger("DeathTypeInt", 1);
+            playerAnim.SetInteger("DeathType_int", 1);
             explosionParticle.Play();
         }
     }
