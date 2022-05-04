@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/Rube Goldberg Assignment 4.3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
