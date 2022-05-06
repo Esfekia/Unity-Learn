@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 {
+    [Header("Rotation Controls")]
+
+    [Tooltip("The axis around which the gameObject is rotating")]
+    [SerializeField]
+    private Vector3 rotationAxis = Vector3.up;
+
+    [Tooltip("The speed with which the gameObject is rotating. Measured in degrees/frame")]
+    [SerializeField]
+    private float rotationSpeed = 1.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +23,6 @@ public class Rotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.up, 1.0f);
+        transform.Rotate(rotationAxis, rotationSpeed);
     }
 }
