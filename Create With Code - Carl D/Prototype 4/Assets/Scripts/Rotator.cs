@@ -12,7 +12,7 @@ public class Rotator : MonoBehaviour
 
     [Tooltip("The speed with which the gameObject is rotating. Measured in degrees/frame")]
     [SerializeField]
-    private float rotationSpeed = 1.0f;
+    private float rotationSpeed = 0.5f;
 
     // Start is called before the first frame update
     void Start()
