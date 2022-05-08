@@ -10,11 +10,14 @@ public class PlayerController : MonoBehaviour
     public bool hasPowerUp = false;
     private float powerUpStrength = 10.0f;
     public GameObject powerupIndicator;
+    private AudioSource playerAudio;
+    public AudioClip hitSound;
 
     // Start is called before the first frame update
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        playerAudio = GetComponent<AudioSource>();
         focalPoint = GameObject.Find("Focal Point");
     }
 
@@ -53,6 +56,8 @@ public class PlayerController : MonoBehaviour
             
             Debug.Log("Collided with " + collision.gameObject.name + " with powerup set to " + hasPowerUp);
             enemyRigidBody.AddForce(awayFromPlayer * powerUpStrength, ForceMode.Impulse);
+            playerAudio.PlayOneShot(hitSound, 1.0f);
         }
+
     }
 }
