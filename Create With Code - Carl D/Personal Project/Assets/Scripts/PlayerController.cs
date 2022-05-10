@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f;
     private Rigidbody playerRb;
-    private float zBound = 6.0f;
+    private float zBound = 7.0f;
 
     // Start is called before the first frame update
     void Start()
