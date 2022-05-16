@@ -386,6 +386,7 @@ MonoBehaviour:
   - {fileID: 2993889054886200555, guid: aca33a547d123ce439fe52c7a68dde5d, type: 3}
   scoreText: {fileID: 40602756}
   gameOverText: {fileID: 430802230}
+  gameIsActive: 0
 --- !u!4 &330024240
 Transform:
   m_ObjectHideFlags: 0
@@ -484,8 +485,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
