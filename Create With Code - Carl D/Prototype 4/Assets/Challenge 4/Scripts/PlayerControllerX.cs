@@ -20,7 +20,7 @@ public class PlayerControllerX : MonoBehaviour
     void Start()
     {
         playerRb = GetComponent<Rigidbody>();
-        focalPoint = GameObject.Find("Focal Point");
+        focalPoint = GameObject.Find("Main Camera");
     }
 
     void Update()
