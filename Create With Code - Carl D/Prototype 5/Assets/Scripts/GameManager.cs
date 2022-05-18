@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
+    public GameObject titleScreen;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI gameOverText;
     public Button restartButton;
@@ -60,5 +61,6 @@ public class GameManager : MonoBehaviour
         score = 0;
         StartCoroutine(SpawnTarget());
         UpdateScore(0);
+        titleScreen.gameObject.SetActive(false);
     }
 }
