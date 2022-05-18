@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public Button restartButton;
     public bool gameIsActive;
     private int score;
-    private float spawnRate = 1.0f;
+    private float spawnRate = 2.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,9 +55,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void StartGame()
+    public void StartGame(int difficulty)
     {
         gameIsActive = true;
+        spawnRate /= difficulty;
         score = 0;
         StartCoroutine(SpawnTarget());
         UpdateScore(0);
