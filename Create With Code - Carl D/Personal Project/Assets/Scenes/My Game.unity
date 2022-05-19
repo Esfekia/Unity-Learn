@@ -852,7 +852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 6522787832693369922, guid: bd7544ca760f74f4e9a4faedd7e97f00, type: 3}
+  - {fileID: 105536, guid: 957efc93c4488964582c89c0bf939bf0, type: 3}
   - {fileID: 1472190640242769358, guid: 49c407c462d39b84aa62f26cc5e77e44, type: 3}
   - {fileID: 4797620545442711460, guid: 7c5bba513175b0c4fa8d85a1e6508a89, type: 3}
   - {fileID: 6836931747155594681, guid: 1c458780d80c21b47afeff16c654cad9, type: 3}
