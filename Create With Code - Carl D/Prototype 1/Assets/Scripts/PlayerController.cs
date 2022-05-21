@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 20.0f;
-    private float turnSpeed = 45.0f;
+    // Protected allows the variable or method to be accessible from outside this script, but only those which inherit the class in which it is.
+    [SerializeField] protected float speed = 20.0f;
+
+    // Variables that are declared as const cannot later be changed in the script anywhere else.
+    private const float turnSpeed = 45.0f;
     private float horizontalInput;
     private float forwardInput;
     public string inputID;
