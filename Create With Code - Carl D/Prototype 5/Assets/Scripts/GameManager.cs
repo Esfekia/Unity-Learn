@@ -15,11 +15,13 @@ public class GameManager : MonoBehaviour
     public bool gameIsActive;
     private int score;
     private float spawnRate = 2.0f;
+    public Texture2D cursorArrow;
+
     // Start is called before the first frame update
     void Start()
     {
-  
-        
+        Cursor.SetCursor(cursorArrow, Vector2.zero, CursorMode.ForceSoftware);
+
     }
 
     // Update is called once per frame
@@ -63,5 +65,10 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SpawnTarget());
         UpdateScore(0);
         titleScreen.gameObject.SetActive(false);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
