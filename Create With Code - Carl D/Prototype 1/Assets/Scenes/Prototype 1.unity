@@ -438,6 +438,11 @@ MonoBehaviour:
   speed: 0
   rpm: 0
   rpmText: {fileID: 509050462}
+  allWheels:
+  - {fileID: 654522320}
+  - {fileID: 1510237161}
+  - {fileID: 1768749371}
+  - {fileID: 620639395}
 --- !u!54 &88509176
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6681,6 +6686,7 @@ MonoBehaviour:
   speed: 0
   rpm: 0
   rpmText: {fileID: 0}
+  allWheels: []
 --- !u!54 &1210282767
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6887,6 +6893,11 @@ MonoBehaviour:
   speed: 0
   rpm: 0
   rpmText: {fileID: 874980856}
+  allWheels:
+  - {fileID: 1589616488}
+  - {fileID: 1454672272}
+  - {fileID: 1377921869}
+  - {fileID: 249637144}
 --- !u!54 &1262712976
 Rigidbody:
   m_ObjectHideFlags: 0
