@@ -355,6 +355,7 @@
 "Assets/Let's Try Shooter/Scripts/CompletedScripts/RayViewerComplete.cs"
 "Assets/Let's Try Shooter/Scripts/CompletedScripts/ShootableBox.cs"
 "Assets/Let's Try Shooter/Scripts/RaycastShoot.cs"
+"Assets/Let's Try Shooter/Scripts/RayViweer.cs"
 -langversion:9.0
 
 /deterministic

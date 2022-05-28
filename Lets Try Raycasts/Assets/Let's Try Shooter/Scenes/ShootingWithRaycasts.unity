@@ -1993,6 +1993,7 @@ GameObject:
   - component: {fileID: 1505249021}
   - component: {fileID: 1505249022}
   - component: {fileID: 1505249023}
+  - component: {fileID: 1505249024}
   m_Layer: 2
   m_Name: Gun
   m_TagString: Untagged
@@ -2230,6 +2231,19 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &1505249024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505249017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 269cac87ff244454ca2ff6ff31f7d125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponRange: 50
 --- !u!1001 &1535492403
 PrefabInstance:
   m_ObjectHideFlags: 0
