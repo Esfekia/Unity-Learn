@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// https://learn.unity.com/tutorial/let-s-try-shooting-with-raycasts#5c7f8528edbc2a002053b468
+
 public class RaycastShoot : MonoBehaviour
 {
     public int gunDamage = 1;
@@ -81,6 +83,28 @@ public class RaycastShoot : MonoBehaviour
             // two possible positions for the end of our laser: the position of whatever we hit or nothing.
             {
                 laserLine.SetPosition(1, hit.point);
+
+                // check if there is a shootable box object attached to the collider our raycast hit.
+                // if it is we will call that objects damage function and pass our gun damage
+                // store it in "health"
+                ShootableBox health = hit.collider.GetComponent<ShootableBox>();
+
+                if (health != null)
+                {
+                    // We pass the gunDamage which we defined earlier to Damage function in ShootableBox.cs
+                    health.Damage(gunDamage);
+                }
+
+                // check if there is a rigidbody attached to the collider our raycast hit.
+                // if there is, we will use AddForce to move it around.
+
+                if (hit.rigidbody != null)
+                {
+                    // hit.normal is the direction away from where we hit.
+                    // by using -hit.normal, we push it away in the direction opposite from the surfave where it was hit.
+                    // we use hitforce we defined above to control the strength.
+                    hit.rigidbody.AddForce(-hit.normal * hitforce);
+                }
             }
             else
             // 50 units away from origin, in the direction of our camera:
